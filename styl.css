@@ -1,0 +1,275 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/* reset marginesów i dopełnień */
+html body ul li 
+{ 
+    margin: 0; padding: 0; 
+}
+
+/* reset wysokości linii i fontu */
+h1 h2 h3 h4 ul li ol p 
+{
+    margin:0; 
+    padding:0; 
+    font-size: 1em;
+    line-height: 1.6em; 
+    
+}
+
+
+/* ustawienia ogólne */
+body 
+{ 
+    background: #012403;
+    font: 0.625em arial, tahoma, verdana, sans-serif; 
+    color: #20w2a38;
+}
+.name
+{
+    color: wheat;
+}
+/* szerokość strony */
+.content 
+{ 
+    width: 980px; 
+    margin: 0px auto; 
+    overflow: hidden; 
+}
+p a li
+ { 
+     color:white 
+     font-size: 20em;
+    font-family: arial, tahoma, verdana, sans-serif; 
+}
+
+
+.wiecej
+{
+    color: #202a38;
+}
+.img
+{
+    width: 1240px;
+    height: 400px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-left: 120px;
+
+}
+.sekcja-1
+{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* header */
+
+header
+{
+     
+    background-image: url('images/tło.jpg');
+    position: relative;
+    border-bottom: 5px solid rgb(0, 0, 0); 
+}
+    
+header .content 
+{
+     
+    overflow: hidden; 
+    text-align: center;
+    text-align: center;
+}
+header h1 
+{ 
+    position: relative; 
+}
+header h1 a 
+{ 
+    display: block; 
+    padding: 10px; 
+    margin-top: 10px;
+    font-size: 90px; 
+    outline: none; 
+    clear: both;
+    
+    text-decoration: none; 
+    color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+header nav 
+{ 
+    clear: both; 
+}
+header nav ul 
+{ 
+    overflow: hidden; 
+    position: relative;
+    list-style: none; 
+    float: left; 
+}
+header nav ul li 
+{ 
+    float: left; 
+}
+header nav ul li a 
+{ 
+    display: block; 
+    padding: 10px 0px 9px 0px;
+    margin-right: 1px; 
+    width: 210px; 
+    height: 26px; 
+    text-align: center;
+    text-decoration: none; 
+    outline: none; 
+    background-image: url('images/przycisk.jpg');
+    color: whitesmoke;
+}
+header nav ul li a:hover 
+{ 
+    background-image: url('images/przycisk2.jpg'); 
+}
+#main 
+{ 
+    position: relative; 
+}
+#main .content 
+{ 
+    margin-bottom: 44px; 
+}
+#main .text 
+{ 
+    padding: 10px 80px 20px 80px; 
+    margin: 0px 0px 20px 0px;
+    background-image: url('images/aktualnosci.jpg');
+
+}
+#main .text h3 
+{ 
+    color: rgb(36, 34, 34); 
+    font-weight: 70px; 
+    font-size: 40px; 
+    
+    
+}
+#main .text p 
+{ 
+    color: #133505; 
+}
+#main .left 
+{ 
+    float: left; 
+    width: 48%; 
+}
+#main .right 
+{ 
+    float: right; 
+    width: 48%; 
+}
+#main section article 
+{ 
+    overflow: hidden; 
+    padding: 20px;
+    background-image: url('images/aktualnosci.jpg');
+    border: 5px solid #202a38; 
+}
+#main h2 
+{
+    margin-bottom: 10px; 
+    color: #043504; 
+    font-size: 18px;
+    padding: px; 
+    border: 0px solid #202a38; 
+    background: burlywood;
+}
+
+    
+    #main article a.wiecej 
+    { 
+        margin-top: 10px; 
+        font-weight: bold;
+        float: right; 
+    }
+    #main article a:hover 
+    { 
+        text-decoration: none; 
+    }
+    #main h4 
+    { 
+        margin-bottom: 30px; 
+        color:#202a38; 
+        font-size: 1.8em; 
+    }
+
+#main ul 
+{ 
+    float: left; 
+    margin: 13px 0px 12px 15px; 
+}
+#main ul li 
+{ 
+    text-align: left; 
+    padding-left: 10px; 
+}
+footer 
+{ 
+    position: relative; 
+}
+
+footer ul
+{ 
+    overflow: hidden; 
+    margin: 20px 10px 15px 10px; 
+    clear: both;
+    list-style: none; 
+    background-image: url('images/aktualnosci.jpg');
+    width: 1000px;
+    height: 40px;
+    
+    
+}
+.adress
+{
+    font-size: 15px;
+    text-align: center;
+    
+}
+        
+footer ul li 
+{ 
+    float: left; 
+    padding: 17px 20px 15px 20px; 
+    width: 29%;
+    text-align: center; 
+}
+footer ul li.center 
+{ 
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0; 
+}
+text-align: center;
+/*body 
+{
+    background-color: rgb(31, 18, 2);
+}
+.content
+{
+    color: white;
+}
+.img
+{
+    width: 1440px;
+    height: 400px;
+    margin: 30px;
+    margin-top: 0px;
+
+}
+.sekcja-1
+{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+} */
