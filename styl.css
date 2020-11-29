@@ -41,7 +41,7 @@ p a li
  { 
      color:white 
      font-size: 20em;
-    font-family: arial, tahoma, verdana, sans-serif; 
+     font-family: 'Poppins', sans-serif;
 }
 
 
@@ -49,10 +49,13 @@ p a li
 {
     color: #202a38;
 }
-.img
+.item
 {
+    
+    display: flex;
+    justify-content: center;
     width: 1240px;
-    height: 400px;
+    height: auto;
     margin: 30px;
     margin-top: 0px;
     margin-left: 120px;
@@ -62,7 +65,7 @@ p a li
 {
     font-size: 20px;
     font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 /* header */
@@ -248,8 +251,13 @@ footer ul li.center
 { 
     border-left: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0; 
+    text-align: center;
 }
-text-align: center;
+
+.copyright
+{
+    color: white;
+}
 /*body 
 {
     background-color: rgb(31, 18, 2);
